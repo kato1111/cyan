@@ -1,0 +1,60 @@
+@CHARSET "UTF-8";
+
+/* -------------------------------------------------------------------- */
+/* 		商品一覧画面													*/
+/* -------------------------------------------------------------------- */
+
+
+.box{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.product-list {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.product-list ul {
+    list-style-type: none;
+}
+
+.product-list-box {
+	display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.item-image-box-250 {
+	overflow: hidden;
+	width: 60%;
+	height: 60%;
+	padding: 60% 0 0;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.item-image-box-250 img{
+ 	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ 	width: auto;
+ 	height: 100%;
+}
+
+.product-info{
+	text-align: center;
+	padding-top:10px;
+	padding-bottom: 20px;
+}
+
+.product-info span{
+	display: block;
+	font-size: 14px;
+	color: #848484;
+	padding-top: 3px;
+}

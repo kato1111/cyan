@@ -1,0 +1,81 @@
+@CHARSET "UTF-8";
+
+/* -------------------------------------------------------------------- */
+/* 		商品詳細画面													*/
+/* -------------------------------------------------------------------- */
+
+.box{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.two-column-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.right{
+    float: left;
+    width: 30%;
+}
+
+.left{
+    float: left;
+    width: 70%;
+}
+
+.submit_btn_box{
+	width : 45%;
+	display : block;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	margin-left : 3%;
+	padding-left : 42%;
+    padding-bottom: 20px;
+	float : left;
+}
+
+.recommend-box{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+
+.item-image-box-320 img{
+	width: 100%;
+	height: auto;
+}
+
+.item-image-box-170{
+	overflow: hidden;
+	width: 40%;
+	height: 40%;
+	padding: 40% 0 0;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.item-image-box-170 img{
+	position: absolute;
+ 	top: 50%;
+ 	left: 50%;
+ 	-webkit-transform: translate(-50%, -50%);
+ 	-ms-transform: translate(-50%, -50%);
+ 	transform: translate(-50%, -50%);
+ 	width: auto;
+ 	height: 100%;
+}
+
+.product-vertical-list-table tr{
+	background-color: white;
+}
+.product-vertical-list-table tr th {
+	text-align: left;
+	width: 35%;
+}
+
+.product-vertical-list-table tr td {
+	width: 70%;
+}
+
+
